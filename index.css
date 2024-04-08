@@ -2,6 +2,12 @@
   --cor-background: rgb(0, 0, 128, 0.9);
   --cor-azul: #000080;
   --oswald-font: "Oswald", sans-serif;
+  --parisienne-font: "Parisienne";
+}
+
+@font-face {
+  font-family: "Parisienne";
+  src: url("./fonts/Parisienne-Regular.ttf") format("truetype");
 }
 
 .header {
@@ -12,6 +18,7 @@
   top: 0;
   left: 0;
 }
+
 body {
   background-image: url("./images/pesos.jpg");
   background-size: 100% 100%;
@@ -29,7 +36,7 @@ body {
 }
 
 #icon-assistente {
-  margin-top: 500px;
+  margin-top: 515px;
   width: 60px;
   margin-left: 285px;
 }
@@ -85,4 +92,14 @@ body {
     margin-left: 11px;
     margin-top: 6px;
   }
+}
+
+#titulo {
+	font-family: var(--parisienne-font);
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 25px;
+	font-weight: 900;
+	color:white;
+	margin-top: -90px
 }
